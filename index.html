@@ -29,9 +29,16 @@
     <p class="w3-opacity"><i>We love music</i></p>
     <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </section>
-  <input type="text" id="companyName" />
-  <input type="text" id="phoneNumber" />
-  <input type="text" id="location" />
+  <div>
+  <label>Company name:</label>
+  <input type="text" id="cName" name="cName" placeholder=" Enter your Company name.."><br> <br>
+  <label>Phone Number:</label>
+  <input type="text" id="pNumber" name="pNumber" placeholder=" Enter your Phone number.."><br> <br>
+  <label>Location: </label>
+  <input type="text" id="location" email="location" placeholder="Enter your location.."><br><br>
+
+      <input type="submit" value="submit">
+  </div>
   
   <script>
   // Automatic Slideshow - change image every 3 seconds
@@ -49,24 +56,15 @@
     x[myIndex-1].style.display = "block";
     setTimeout(carousel, 3000);
   }
-  var companyName = prompt("Please enter your Company name", "");
-if (campanyName!= null) {
-    document.getElementsByClassName("w3-button w3-bar-item").value 
-   
-}
-    var phoneNumber=propmt("Please enter your phoneNumber","");
+
+    var Welcome=propmt("Welcome","");
 if(phoneNumber!=null){
   document.getElementsByClassName("w3-button w3-bar-item").value
 }
-var location=prompt("please enter your location","");
-if(location!=null){
-  document.getElementsByClassName("w3-button w3-bar-item").value
-}
+
   </script>
   
- 
 
-  
   </body>
   </html>
  <!-- 3. the script for moving the carousel works it is Slideshow for cycling through a series of content  and it  works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators. -->
